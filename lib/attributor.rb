@@ -29,6 +29,7 @@ module Attributor
   require_relative 'attributor/types/hash'
   require_relative 'attributor/types/csv'
   require_relative 'attributor/types/ids'
+  require_relative 'attributor/types/tempfile'
 
   # List of all basic types (i.e. not collections, structs or models)
 
